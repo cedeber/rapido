@@ -1,2 +1,3 @@
-# rapido
-Swift experiments
+# Rápido
+
+Swift experiments.
