@@ -2,15 +2,6 @@ import ArgumentParser
 import Foundation
 import SWXMLHash
 
-struct BoardGame {
-    let id: Int
-    let name: String
-    let year: Int?
-    let min_players: Int?
-    let max_players: Int?
-    let playtime: Int? // minutes
-}
-
 @main
 struct Bgg: AsyncParsableCommand {
     static let configuration = CommandConfiguration(abstract: "Simple program to list all board games from a BoardGameGeek user.", version: "0.1.0")
